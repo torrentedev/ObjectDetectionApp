@@ -1,0 +1,16 @@
+{
+  "name": "objectdetectionapp",
+  "version": "1.0.0",
+  "main": "index.js",
+"scripts": {
+  "start": "node server.js",
+  "heroku-postbuild": "cd client && npm install && npm run build"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
